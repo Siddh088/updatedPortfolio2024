@@ -1,0 +1,53 @@
+.about-img {
+    width: 80%;
+    margin-top: -20%;
+    border-radius: 8px;
+}
+
+.about-para {
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 600;
+    word-spacing: 2px;
+    text-align: justify;
+}
+
+:root {
+    --red: tomato;
+    --bgColor: bisque;
+}
+
+
+.my-test {
+    position: relative;
+}
+
+#fot {
+    position: absolute;
+    top: -75px;
+    right: -45px;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-para {
+        padding: 6px;
+        font-size: 16px;
+    }
+
+    .my-test {
+        margin-top: 40px !important;
+    }
+
+
+    #fot {
+        top: -75px;
+        right: 0;
+    }
+
+    .about-img {
+        margin-left: 50px;
+    }
+
+
+}

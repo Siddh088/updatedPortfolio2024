@@ -1,0 +1,87 @@
+.section-resume {
+    margin: 20px 0;
+}
+
+.resume-para {
+    line-height: 1.6;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.resume-para ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-resume h5 {
+    margin: 10px 0;
+}
+
+.resume-para {
+    position: relative;
+}
+
+.my-ul::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.my-ul::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    top: 10px;
+    left: -16px;
+    border-left: 2px solid #9067C6;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 6px;
+}
+
+.my-ul p {
+    margin-bottom: 0;
+}
+
+.resume-title-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .inner-resume {
+        margin-top: 20px !important;
+    }
+
+    .resume-para {
+        padding: 10px;
+    }
+
+    .my-ul::before {
+        top: 0px;
+        left: 5px;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .my-ul::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        top: 10px;
+        left: 9px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 6px;
+    }
+}

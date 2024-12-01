@@ -1,0 +1,20 @@
+.navbar-brand {
+    margin-right: 0 !important;
+    color: #fff !important;
+    font-weight: 700;
+}
+
+.navbar-nav a {
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbar-nav a:hover {
+    border-radius: 6px;
+    border-bottom: 3px solid #9067C6;
+    transition: 0.3s ease-in-out;
+
+}
+
+@media only screen and (max-width: 600px) {}

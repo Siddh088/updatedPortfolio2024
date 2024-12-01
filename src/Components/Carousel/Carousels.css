@@ -1,0 +1,16 @@
+.carousel-control-prev,
+.carousel-control-next {
+    display: none !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .project-image {
+        width: 100%;
+    }
+
+    .my-carousel {
+        width: 90%;
+        border-radius: 12px;
+    }
+}

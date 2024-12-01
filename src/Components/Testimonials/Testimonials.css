@@ -1,0 +1,28 @@
+.section-appreciation {
+    margin: 40px 0;
+}
+
+.testimonial-carousel img {
+    height: 500px !important;
+}
+
+.appreciation img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.appreciation img:hover {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+.appreciation-carousel {
+    margin-top: 50px;
+}
+
+.appreciation-image {
+    width: 100%;
+    border-radius: 6px;
+}
